@@ -132,8 +132,8 @@
 		CA78791E25DF6E3700F9E5C0 /* BOCeRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				CA72F7EB25DF807700BB1271 /* BOCeRefreshFooter */,
 				CA72F7EA25DF806400BB1271 /* BOCeRefreshHeader */,
+				CA72F7EB25DF807700BB1271 /* BOCeRefreshFooter */,
 				CA78791F25DF6E3700F9E5C0 /* AppDelegate.h */,
 				CA78792025DF6E3700F9E5C0 /* AppDelegate.m */,
 				CA78792525DF6E3700F9E5C0 /* ViewController.h */,
