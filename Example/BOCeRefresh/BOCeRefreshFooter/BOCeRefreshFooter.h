@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface BOCeRefreshFooter : MJRefreshFooter
+@interface BOCeRefreshFooter : MJRefreshBackNormalFooter
 
 @end
 
