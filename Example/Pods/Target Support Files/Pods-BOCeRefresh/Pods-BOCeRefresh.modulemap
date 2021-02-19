@@ -1,0 +1,6 @@
+framework module Pods_BOCeRefresh {
+  umbrella header "Pods-BOCeRefresh-umbrella.h"
+
+  export *
+  module * { export * }
+}

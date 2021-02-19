@@ -3,12 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CE509D8B4540314B6DBFBAE /* Pods_BOCeRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1ED48D9825EFF70AB3707DB /* Pods_BOCeRefresh.framework */; };
+		CA72F7E625DF803800BB1271 /* BOCeRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = CA72F7E525DF803800BB1271 /* BOCeRefreshFooter.m */; };
+		CA72F7F525DF80DE00BB1271 /* BOCeRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CA72F7F425DF80DE00BB1271 /* BOCeRefreshHeader.m */; };
 		CA78792125DF6E3700F9E5C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA78792025DF6E3700F9E5C0 /* AppDelegate.m */; };
-		CA78792425DF6E3700F9E5C0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA78792325DF6E3700F9E5C0 /* SceneDelegate.m */; };
 		CA78792725DF6E3700F9E5C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA78792625DF6E3700F9E5C0 /* ViewController.m */; };
 		CA78792A25DF6E3700F9E5C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA78792825DF6E3700F9E5C0 /* Main.storyboard */; };
 		CA78792C25DF6E3900F9E5C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA78792B25DF6E3900F9E5C0 /* Assets.xcassets */; };
@@ -36,11 +38,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DC6BB42EB5A96300FFC4BAF /* Pods-BOCeRefresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BOCeRefresh.release.xcconfig"; path = "Target Support Files/Pods-BOCeRefresh/Pods-BOCeRefresh.release.xcconfig"; sourceTree = "<group>"; };
+		49B1E0E23CE9B649B9ECFD20 /* Pods-BOCeRefresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BOCeRefresh.debug.xcconfig"; path = "Target Support Files/Pods-BOCeRefresh/Pods-BOCeRefresh.debug.xcconfig"; sourceTree = "<group>"; };
+		C1ED48D9825EFF70AB3707DB /* Pods_BOCeRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BOCeRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA72F7E425DF803800BB1271 /* BOCeRefreshFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BOCeRefreshFooter.h; sourceTree = "<group>"; };
+		CA72F7E525DF803800BB1271 /* BOCeRefreshFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BOCeRefreshFooter.m; sourceTree = "<group>"; };
+		CA72F7F325DF80DE00BB1271 /* BOCeRefreshHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BOCeRefreshHeader.h; sourceTree = "<group>"; };
+		CA72F7F425DF80DE00BB1271 /* BOCeRefreshHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BOCeRefreshHeader.m; sourceTree = "<group>"; };
 		CA78791C25DF6E3700F9E5C0 /* BOCeRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BOCeRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA78791F25DF6E3700F9E5C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA78792025DF6E3700F9E5C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CA78792225DF6E3700F9E5C0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		CA78792325DF6E3700F9E5C0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		CA78792525DF6E3700F9E5C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CA78792625DF6E3700F9E5C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CA78792925DF6E3700F9E5C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CE509D8B4540314B6DBFBAE /* Pods_BOCeRefresh.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +89,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA72F7EA25DF806400BB1271 /* BOCeRefreshHeader */ = {
+			isa = PBXGroup;
+			children = (
+				CA72F7F325DF80DE00BB1271 /* BOCeRefreshHeader.h */,
+				CA72F7F425DF80DE00BB1271 /* BOCeRefreshHeader.m */,
+			);
+			path = BOCeRefreshHeader;
+			sourceTree = "<group>";
+		};
+		CA72F7EB25DF807700BB1271 /* BOCeRefreshFooter */ = {
+			isa = PBXGroup;
+			children = (
+				CA72F7E425DF803800BB1271 /* BOCeRefreshFooter.h */,
+				CA72F7E525DF803800BB1271 /* BOCeRefreshFooter.m */,
+			);
+			path = BOCeRefreshFooter;
+			sourceTree = "<group>";
+		};
 		CA78791325DF6E3700F9E5C0 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +114,8 @@
 				CA78793A25DF6E3900F9E5C0 /* BOCeRefreshTests */,
 				CA78794525DF6E3900F9E5C0 /* BOCeRefreshUITests */,
 				CA78791D25DF6E3700F9E5C0 /* Products */,
+				EFC215A6A23651F17471DCB2 /* Pods */,
+				F1159E69D205CD3E34949C9F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,10 +132,10 @@
 		CA78791E25DF6E3700F9E5C0 /* BOCeRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				CA72F7EB25DF807700BB1271 /* BOCeRefreshFooter */,
+				CA72F7EA25DF806400BB1271 /* BOCeRefreshHeader */,
 				CA78791F25DF6E3700F9E5C0 /* AppDelegate.h */,
 				CA78792025DF6E3700F9E5C0 /* AppDelegate.m */,
-				CA78792225DF6E3700F9E5C0 /* SceneDelegate.h */,
-				CA78792325DF6E3700F9E5C0 /* SceneDelegate.m */,
 				CA78792525DF6E3700F9E5C0 /* ViewController.h */,
 				CA78792625DF6E3700F9E5C0 /* ViewController.m */,
 				CA78792825DF6E3700F9E5C0 /* Main.storyboard */,
@@ -137,6 +165,23 @@
 			path = BOCeRefreshUITests;
 			sourceTree = "<group>";
 		};
+		EFC215A6A23651F17471DCB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49B1E0E23CE9B649B9ECFD20 /* Pods-BOCeRefresh.debug.xcconfig */,
+				0DC6BB42EB5A96300FFC4BAF /* Pods-BOCeRefresh.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F1159E69D205CD3E34949C9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1ED48D9825EFF70AB3707DB /* Pods_BOCeRefresh.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA78794B25DF6E3900F9E5C0 /* Build configuration list for PBXNativeTarget "BOCeRefresh" */;
 			buildPhases = (
+				276E79A09E0FB35FED90D1A6 /* [CP] Check Pods Manifest.lock */,
 				CA78791825DF6E3700F9E5C0 /* Sources */,
 				CA78791925DF6E3700F9E5C0 /* Frameworks */,
 				CA78791A25DF6E3700F9E5C0 /* Resources */,
+				C88C58FBCD54810D99A00B12 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,15 +308,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		276E79A09E0FB35FED90D1A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BOCeRefresh-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C88C58FBCD54810D99A00B12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BOCeRefresh/Pods-BOCeRefresh-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BOCeRefresh/Pods-BOCeRefresh-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BOCeRefresh/Pods-BOCeRefresh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CA78791825DF6E3700F9E5C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA72F7F525DF80DE00BB1271 /* BOCeRefreshHeader.m in Sources */,
 				CA78792725DF6E3700F9E5C0 /* ViewController.m in Sources */,
 				CA78792125DF6E3700F9E5C0 /* AppDelegate.m in Sources */,
 				CA78793225DF6E3900F9E5C0 /* main.m in Sources */,
-				CA78792425DF6E3700F9E5C0 /* SceneDelegate.m in Sources */,
+				CA72F7E625DF803800BB1271 /* BOCeRefreshFooter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +528,7 @@
 		};
 		CA78794C25DF6E3900F9E5C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49B1E0E23CE9B649B9ECFD20 /* Pods-BOCeRefresh.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -455,6 +546,7 @@
 		};
 		CA78794D25DF6E3900F9E5C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DC6BB42EB5A96300FFC4BAF /* Pods-BOCeRefresh.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

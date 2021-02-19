@@ -1,0 +1,28 @@
+PODS:
+  - BOCeRefresh (0.0.1):
+    - MJRefresh (~> 3.5.0)
+  - MJRefresh (3.5.0)
+
+DEPENDENCIES:
+  - BOCeRefresh (from `https://github.com/guang1472006/BOCeRefresh.git`)
+
+SPEC REPOS:
+  trunk:
+    - MJRefresh
+
+EXTERNAL SOURCES:
+  BOCeRefresh:
+    :git: https://github.com/guang1472006/BOCeRefresh.git
+
+CHECKOUT OPTIONS:
+  BOCeRefresh:
+    :commit: e2d48aae34c05624a6b0672a703087d0a58207d1
+    :git: https://github.com/guang1472006/BOCeRefresh.git
+
+SPEC CHECKSUMS:
+  BOCeRefresh: a530eff01e95c5a1fad8e750f8b4d53f92b1227f
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+
+PODFILE CHECKSUM: 41527899d823fe930a00b4cf397911dd92b4f652
+
+COCOAPODS: 1.10.1

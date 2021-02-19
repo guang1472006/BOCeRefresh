@@ -4,6 +4,6 @@ platform :ios, '9.0'
 
 target 'BOCeRefresh' do
 
-  pod 'BOCeRefresh', :path => 'https://github.com/guang1472006/BOCeRefresh.git'
+  pod 'BOCeRefresh', :git=> 'https://github.com/guang1472006/BOCeRefresh.git'
 
 end
